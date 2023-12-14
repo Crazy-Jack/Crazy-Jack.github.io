@@ -58,7 +58,7 @@
             
 
             <h1 class="h2">Tianqin Li</h1>
-            <div style="display: flex;">
+            <div>
               <div>
                 <img src="./assets/images/me003.jpeg" width="200em">
                 <br>
@@ -100,18 +100,19 @@
                   </a>
                   
                 </div>
-              </div>
+              </div><br><br>
               <div style="padding-left: 5em;"></div>
               <div>
-                <p>The ability for the human mind to symbolically and logically 
+                <p>The ability for the human mind to logically 
                   reason has been a key distinguishing feature to our species success. 
-                  Our capacity to distill our observations of the world into discrete symbolic 
+                  Our capacity to distill our observations of the world into discrete composable 
                   concepts enables us to extract critical information from an ocean of noise and 
-                  efficiently communicate our ideas. Using these symbolic concepts, we can further extend 
-                  previously learned knowledge to abstract unseen observations with very sparse supervision. </p>
+                  efficiently communicate our ideas. 
+                  
+                  Using these composable concepts, we can further extend 
+                  previously learned knowledge to abstract unseen observations and do more hierarchical planning and reasoning. </p>
                   <p>These attributes of the human mind stand in sharp contrast to modern artificial neural networks, 
-                  which represent input as a continuous and unstructured vector, and require huge amounts of 
-                  supervision to succeed. This contrast motivates me to build smart machines that can <span style="color: darkred"><b>(1) perform symbolic reasoning from 
+                  which represent input as a continuous and entangled vector, and are not robust to domain shift. This contrast motivates me to build smart machines that can <span style="color: darkred"><b>(1) perform efficient and robust reasoning from 
                   raw sensory information</b></span>; <span style="color: darkred"><b>(2) learn with limited supervision. </b></span></p>
                   <p>In addition, I'm also interested in various computer vision tasks, including 3D synthesis, dynamic point clound sequence enhancement, video prediction and interpolation, etc. 
                     Before joining CMU and doing AI research, I studied bioinformatics and developed softwares for synthetic biologists to automate the process of artificially engineering life. </p>
@@ -133,6 +134,9 @@
 
   <div class="container">
     <h2>News & Code</h2>
+    <p style="padding-top: 0.1px; padding-bottom: 0.1em;  margin: 0mm;">[<span style="color:darkred;"><b>Presentation</b></span>] I presented the <b>Top-K for Shape Bias</b> in <span style="color:darkred;"><b>NeurIPS 2023</b></span> in <span style="color:darkred;"><b><a href="https://neurips.cc/virtual/2023/oral/73850">oral session 2B</a></b></span> at Ballroom Hall A - C in New Orleans Conventional Center!</p>
+    <p style="padding-top: 0.1px; padding-bottom: 0.1em;  margin: 0mm;">[<span style="color:darkred;"><b>Publication</b></span>] The work <b>Top-K for Shape Bias</b> is accepted by <span style="color:darkred;"><b>NeurIPS 2023</b></span> as an <span style="color:darkred;"><b><a href="https://openreview.net/forum?id=QzcZb3fWmW">Oral</a></b></span> Paper!</p>
+    <p style="padding-top: 0.1px; padding-bottom: 0.1em;  margin: 0mm;">[<span style="color:darkred;"><b>Ph.D. Start</b></span>] Got accepted in Carnegie Mellon University Computer Science Department for Ph.D. study starting Fall 2022. </p>
     <p style="padding-top: 0.1px; padding-bottom: 0.1em;  margin: 0mm;">[<span style="color:darkred;"><b>Publication</b></span>] The work <b>MoCA</b> is accepted by <span style="color:darkred;"><b>ICLR 2022</b></span>.</p>
     <p style="padding-top: 0.1px; padding-bottom: 0.1em;  margin: 0mm;">[<span style="color:darkred;"><b>Publication</b></span>] The work <b>Cl-InfoNCE</b> is accepted by <span style="color:darkred;"><b>ICLR 2022</b></span>.</p>
     <p style="padding-top: 0.1px; padding-bottom: 0.1em;  margin: 0mm;">[<span style="color:darkred;"><b>Publication</b></span>] The work <b>CCLK</b> is accepted by <span style="color:darkred;"><b>ICLR 2022</b></span>.</p>
@@ -144,13 +148,34 @@
   <div class="container">
     <h2>Projects</h2>
 
+
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div>
+      <img style="border: 1px solid black;" src="./assets/images/topk-1.png" height="165em">
+      <div style="padding-top: 1em;">
+        
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Emergence of Shape Bias in Convolotional Neural Networks through Activation Sparsity</b></p>
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Tianqin Li</b>, Ziqi Wen, Yangfan Li, Tai Sing Lee.</p>
+        <p><span style="color:darkred;"><b><a href="https://neurips.cc/virtual/2023/oral/73850">Oral (session 2B)</a></b></span> presentation at Ballroom Hall A - C in New Orleans Conventional Center (Dec 12 2023)!</p>
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Accepted by the 37th Neural Information Processing System (<span style="color: darkred"><b>NeurIPS 2023  - Oral - selective 1%</b></span>)</p>
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">
+          <a href="https://openreview.net/forum?id=QzcZb3fWmW" target="_blank"><span style="color: darkred"><b>Link</b></span></a>
+          |
+          <a href="https://github.com/crazy-jack/nips2023_shape_vs_texture" target="_blank"><span style="color: darkred"><b>Code</b></span></a>
+        </p>
+
+      </div>
+    
+    </div>
+
+    <div style="margin: 2em;"></div>
+    <div>
       <img style="border: 1px solid black;" src="./assets/images/project_moca.png" height="150em">
-      <div style="padding-left: 2em; padding-top: 1em;">
+      <div style="padding-top: 1em;">
+        
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>MoCA: Prototype Memory and Attention Mechanisms for Few-shot Image Generation</b></p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Tianqin Li*</b>, Zijie Li*, Andrew Luo, Harold Rockwell, Amir Barati Farimani, Tai Sing Lee.</p>
-        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Accepted by of The Tenth International Conference on Learning Representations (<span style="color: darkred"><b>ICLR 2022</b></span>)</p>
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Accepted by the Tenth International Conference on Learning Representations (<span style="color: darkred"><b>ICLR 2022</b></span>)</p>
         
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">
           <a href="https://openreview.net/pdf?id=lY0-7bj0Vfz" target="_blank"><span style="color: darkred"><b>Link</b></span></a>
@@ -165,11 +190,11 @@
 
 
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div>
       <img style="border: 1px solid black;" src="./assets/images/project_cclk.png" height="150em">
-      <div style="padding-left: 2em; padding-top: 1em;">
+      <div style="padding-top: 1em;">
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>CCL-K: Conditional Contrastive Learning with Kernel</b></p>
-        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Tianqin Li*</b>, Yao-Hung Hubert Tsai*, Martin Q. Ma, Han Zhao, Kun Zhang, Louis-Philippe Morency, Ruslan Salakhutdinov.</p>
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Yao-Hung Hubert Tsai*, <b>Tianqin Li*</b>, Martin Q. Ma, Han Zhao, Kun Zhang, Louis-Philippe Morency, Ruslan Salakhutdinov.</p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Accepted by the Tenth International Conference on Learning Representations (<span style="color: darkred"><b>ICLR 2022</b></span>)</p>
         
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">
@@ -181,14 +206,15 @@
       </div>
     
     </div>
+    
 
 
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div>
       <img style="border: 1px solid black;" src="./assets/images/project_clinfonce.png" height="150em">
-      <div style="padding-left: 2em; padding-top: 2em;">
+      <div style="padding-top: 2em;">
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Cl-InfoNCE: Learning Weakly-supervised Contrastive Representations</b></p>
-        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Tianqin Li*</b>, Yao-Hung Hubert Tsai*, Weixin Liu, Peiyuan Liao, Ruslan Salakhutdinov, Louis-Philippe Morency.</p>
+        <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Yao-Hung Hubert Tsai*, <b>Tianqin Li*</b>, Weixin Liu, Peiyuan Liao, Ruslan Salakhutdinov, Louis-Philippe Morency.</p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Accepted by the Tenth International Conference on Learning Representations (<span style="color: darkred"><b>ICLR 2022</b></span>)</p>
         
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">
@@ -203,9 +229,9 @@
 
 
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div>
       <img style="border: 1px solid black;" src="./assets/images/project_TPUGAN.png" height="150em">
-      <div style="padding-left: 2em; padding-top: 2em;">
+      <div style="padding-top: 2em;">
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>TPU-GAN: Learning Temporal Coherence from Dynamic Point Cloud Sequence</b></p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Zijie Li, <b>Tianqin Li</b>, Amir Barati Farimani.</p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Accepted by the Tenth International Conference on Learning Representations (<span style="color: darkred"><b>ICLR 2022</b></span>)</p>
@@ -223,9 +249,9 @@
 
 
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div>
       <img style="border: 1px solid black;" src="./assets/images/project_surgen.png" height="150em">
-      <div style="padding: 2em;">
+      <div style="padding-top: 2em;">
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>SurfGen: Adversarial 3D Shape Synthesis with Explicit Surface Discriminators </b></p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Andrew Luo, <b>Tianqin Li</b>, Wen-Hao Zhang, Tai Sing Lee</p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Published in 2021 International Conference on Computer Vision (<span style="color: darkred"><b>ICCV 2021</b></span>)</p>
@@ -240,9 +266,9 @@
     </div>
 
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div >
       <img style="border: 1px solid black;" src="./assets/images/project_iccbb.png" height="150em">
-      <div style="padding: 2em;">
+      <div style="padding-top: 2em;">
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Using the SVM method for Lung Adenocarcinoma Prognosis Based on Expression Level</b></p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Tianqin Li</b>, Mingzhe Hu, Liao Zhang</p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">Published in 2018 International Conference on Computational Biology and Bioinformatics (<span style="color: darkred"><b>ICCBB 2018</b></span>)</p>
@@ -258,16 +284,16 @@
     
 
     <div style="margin: 2em;"></div>
-    <div style="display: flex;">
+    <div>
       <img style="border: 1px solid black;" src="./assets/images/project_SDIN.png" height="150em">
-      <div style="padding-left: 2em; padding-top: 2em;">
+      <div style="padding-top: 2em;">
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>S-DIn: <span style="color: black">S</span>earch engine and <span style="color: black">D</span>esign platform for <span style="color: black">I</span>nspiration with <span style="color: black">N</span>etwork analysis</b></p>
         <!-- <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><b>Tianqin Li</b>, Shucheng Zheng, Yimin Zheng, Yadi Guo, Xiang Li, Xingyu Fu, Ziwei Wang, Jiawei Zhang, Wei Dai, Jinran Lin, Xiaoxi Wang, Jinghua Xiong, Ruijie Wang, Mingqi Xue, Taoli Zhou, Peixin Cai, Yuyun Liang, Yanrong Lv, Haochen Ni, Jingyi Guan, MengZhi Lai, Ziqi Kang, Zheng Li, Jingyi Guan.</p> -->
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">2017 SYSU-Software Team (<b>Team Leader</b>)</p>
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;"><span style="color: black"><b>Best Software Project Award</b></span> in 2017 International Genetically Engineered Machine Competetion (<span style="color: darkred"><b>iGEM 2017</b></span>)</p>
         
         <p style="padding-top: 0.1px; padding-bottom: 0.1em; margin: 0mm;">
-          <a href="" target="_blank"><span style="color: darkred"><b>Link</b></span></a>
+          <a href="https://2017.igem.org/Team:SYSU-Software/Project" target="_blank"><span style="color: darkred"><b>Link</b></span></a>
           |
           <a href="https://github.com/igemsoftware2017/SYSU-Software-2017" target="_blank"><span style="color: darkred"><b>Code</b></span></a>
         </p>
