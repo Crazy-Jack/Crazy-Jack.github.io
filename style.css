@@ -1,0 +1,49 @@
+/* styles.css */
+
+/* Example CSS rule */
+  
+h1 {
+    color: darkred;
+    font-size: 1.5em;
+}
+  
+p {
+    font-size: 1.5em;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+b {
+    font-size: 0.9em;
+}
+
+span {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+.quote-container {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.quote-text {
+    display: inline;
+}
+
+.quote-author {
+    display: inline;
+    float: right;
+    white-space: nowrap;
+    margin-left: 10px;
+}
+
+.research-page-title {
+    display: flex;
+    align-items: center;
+}
+
+
+.spacer {
+    flex-grow: 1; /* This makes the spacer grow and push elements apart */
+}
